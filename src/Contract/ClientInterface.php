@@ -1,7 +1,17 @@
 <?php
 
+declare(strict_types=1);
+/**
+ * Unofficial RocketMQ Client SDK for Hyperf
+ *
+ * @contact colisys@duck.com
+ * @license Apache-2.0
+ * @copyright 2025 Colisys
+ */
+
 namespace Colisys\RmqClient\Remoting\Contract;
 
+use Closure;
 use Colisys\Rocketmq\Helper\Result;
 
 interface ClientInterface
@@ -17,5 +27,5 @@ interface ClientInterface
 
     public function recv(int $timeout = 0): Result;
 
-    public function use(\Closure $callback);
+    public function use(Closure $callback);
 }
