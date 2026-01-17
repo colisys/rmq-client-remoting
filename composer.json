@@ -1,0 +1,18 @@
+{
+    "name": "colisys/rmq-client-remoting",
+    "description": "非官方RocketMQ Client SDK (仅 Remoting 协议)",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Colisys\\RocketmqClient\\Remoting\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dawncall",
+            "email": "colisys@duck.com"
+        }
+    ],
+    "require": {}
+}
