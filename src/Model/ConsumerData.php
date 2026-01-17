@@ -14,7 +14,7 @@ namespace Colisys\RmqClient\Remoting\Model;
 use Colisys\RmqClient\Remoting\Contract\ConsumeFromWhere;
 use Colisys\RmqClient\Remoting\Contract\ConsumeType;
 use Colisys\RmqClient\Remoting\Contract\MessageModel;
-use Colisys\Rocketmq\Helper\Set;
+use Colisys\RmqClient\Shared\Helper\Set;
 use JsonSerializable;
 
 class ConsumerData extends BaseModel implements JsonSerializable

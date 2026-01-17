@@ -11,7 +11,7 @@ declare(strict_types=1);
 
 namespace Colisys\RmqClient\Remoting\Model;
 
-use Colisys\Rocketmq\Helper\Set;
+use Colisys\RmqClient\Shared\Helper\Set;
 use JsonSerializable;
 
 class SubscriptionData implements JsonSerializable

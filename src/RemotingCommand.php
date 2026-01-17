@@ -11,8 +11,8 @@ declare(strict_types=1);
 
 namespace Colisys\RmqClient\Remoting;
 
-use Colisys\Rocketmq\Helper\Arr;
-use Colisys\Rocketmq\Helper\Set;
+use Colisys\RmqClient\Shared\Helper\Arr;
+use Colisys\RmqClient\Shared\Helper\Set;
 use Exception;
 use Hyperf\Framework\Exception\NotImplementedException;
 use JsonSerializable;

@@ -13,7 +13,7 @@ namespace Colisys\RmqClient\Remoting\Client;
 
 use Closure;
 use Colisys\RmqClient\Remoting\Contract\ClientInterface;
-use Colisys\Rocketmq\Helper\Result;
+use Colisys\RmqClient\Shared\Helper\Result;
 use Exception;
 use Swoole\Coroutine\Client;
 

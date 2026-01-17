@@ -16,7 +16,7 @@ use Colisys\RmqClient\Remoting\Model\ProducerData;
 use Colisys\RmqClient\Remoting\RemotingCommand;
 use Colisys\RmqClient\Remoting\RemotingCommandType;
 use Colisys\RmqClient\Remoting\RequestCode;
-use Colisys\Rocketmq\Helper\Arr;
+use Colisys\RmqClient\Shared\Helper\Arr;
 
 /**
  * @property string $clientId

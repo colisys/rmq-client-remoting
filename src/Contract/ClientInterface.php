@@ -12,7 +12,7 @@ declare(strict_types=1);
 namespace Colisys\RmqClient\Remoting\Contract;
 
 use Closure;
-use Colisys\Rocketmq\Helper\Result;
+use Colisys\RmqClient\Shared\Helper\Result;
 
 interface ClientInterface
 {
